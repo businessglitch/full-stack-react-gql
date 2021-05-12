@@ -1,0 +1,10 @@
+**.vscode
+# Front End
+**.next/
+**node_modules/
+# Back End
+**.env
+**.keystone/
+**yarn.lock
+**package-lock.json
+**.DS_Store
