@@ -3,7 +3,7 @@ module.exports = {
     async rewrites() {
         return [
           {
-            source: 'http://139.59.38.84:7777/*',
+            source: '/*',
             destination: 'http://139.59.38.84:3000/*',
           },
         ]
