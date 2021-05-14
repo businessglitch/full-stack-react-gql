@@ -3,8 +3,8 @@ module.exports = {
     async rewrites() {
         return [
           {
-            source: '/*',
-            destination: 'http://139.59.38.84:3000/*',
+            source: '/:path*',
+            destination: 'http://139.59.38.84:3000/:path*',
           },
         ]
       },
