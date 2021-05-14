@@ -3,7 +3,7 @@ module.exports = {
     async headers() {
         return [
             {
-                source: '/:path*',
+                source: '/(.*?)',
                 headers: [
                     {
                         key: "Access-Control-Allow-Origin",
