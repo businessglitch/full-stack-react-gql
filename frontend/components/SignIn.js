@@ -63,7 +63,6 @@ export default function SignIn() {
                     <input 
                     type="password"
                     required 
-                    id="password" 
                     name="password" 
                     autoComplete="password" 
                     value={inputs.password}
