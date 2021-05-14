@@ -6,7 +6,7 @@ export const Product = list({
     //access
     access: {
         create: isSignedIn,
-        read: rules.canReadProducts,
+        read: () => true,
         delete: rules.canManageProducts,
         update: rules.canManageProducts
     },
